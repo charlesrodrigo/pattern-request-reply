@@ -12,7 +12,7 @@ Exemplo de implementação do padrão request reply usando kafka e spring
  mvn spring-boot:run
 ```
 
-### Relizar uma chamada http para que a mensagem seja enviada e receber a resposta no mesmo request
+### Realizar chamada http para que a mensagem seja enviada e receber a resposta no mesmo request
 
 ```
 curl --location --request POST 'http://localhost:8280//sendAndReceiverAndReplyToPartition' \
